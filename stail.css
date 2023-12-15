@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contayner{
+padding-left: 140px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding-top: 24px;
+    display: flex;
+}
+
+.navbar_text{
+    display: flex;
+    gap: 60px;
+    padding-left: 320px;
+}
+
+.navbar_logo{
+ color: #4579CB;
+font-family: Segoe UI;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.nevbar_text_p_bir_div{
+color: var(--color-3, #666);
+font-family: Segoe UI;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+
+
+
+.navbar_text_btn{
+width: 170px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 8px;
+background: var(--color-1, #4579CB);
+color: var(--color-6, #FFF);
+text-align: center;
+font-family: Segoe UI;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+border: #FFF;
+}
