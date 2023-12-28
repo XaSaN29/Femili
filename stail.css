@@ -56,3 +56,46 @@ font-weight: 700;
 line-height: 24px; 
 border: #FFF;
 }
+
+/* world */
+
+
+.world{
+   padding-top: 139px;
+    padding-left: 150px;
+}
+
+.world_text_h_div{
+ width: 1046px;
+height: 234px;
+flex-shrink: 0;
+}
+
+.world_text_h{
+color: #666;
+font-family: Segoe UI;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 1.12px;
+padding-bottom: 38px;
+}
+
+.world_text_p_div{
+width: 828px;
+height: 54px;
+flex-shrink: 0;
+}
+
+.world_text_p{
+color: var(--color-3, #666);
+text-align: center;
+
+font-family: Segoe UI;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+padding-bottom: 38px;
+}
